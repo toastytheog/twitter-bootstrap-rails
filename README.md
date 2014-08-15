@@ -180,11 +180,11 @@ This should appear inside _bootstrap_and_overrides *(based on you twitter-bootst
 
 ```css
 // Font Awesome
-@fontAwesomeEotPath: asset-url("fontawesome-webfont.eot");
-@fontAwesomeEotPath_iefix: asset-url("fontawesome-webfont.eot?#iefix");
-@fontAwesomeWoffPath: asset-url("fontawesome-webfont.woff");
-@fontAwesomeTtfPath: asset-url("fontawesome-webfont.ttf");
-@fontAwesomeSvgPath: asset-url("fontawesome-webfont.svg#fontawesomeregular");
+@fontAwesomeEotPath: font-url("fontawesome-webfont.eot");
+@fontAwesomeEotPath_iefix: font-url("fontawesome-webfont.eot?#iefix");
+@fontAwesomeWoffPath: font-url("fontawesome-webfont.woff");
+@fontAwesomeTtfPath: font-url("fontawesome-webfont.ttf");
+@fontAwesomeSvgPath: font-url("fontawesome-webfont.svg#fontawesomeregular");
 @import "fontawesome/font-awesome";
 ```
 
@@ -204,11 +204,11 @@ If you would like to restore the default Glyphicons, inside the _bootstrap_and_o
 
 ```less
 // Font Awesome
-// @fontAwesomeEotPath: asset-url("fontawesome-webfont.eot");
-// @fontAwesomeEotPath_iefix: asset-url("fontawesome-webfont.eot?#iefix");
-// @fontAwesomeWoffPath: asset-url("fontawesome-webfont.woff");
-// @fontAwesomeTtfPath: asset-url("fontawesome-webfont.ttf");
-// @fontAwesomeSvgPath: asset-url("fontawesome-webfont.svg#fontawesomeregular");
+// @fontAwesomeEotPath: font-url("fontawesome-webfont.eot");
+// @fontAwesomeEotPath_iefix: font-url("fontawesome-webfont.eot?#iefix");
+// @fontAwesomeWoffPath: font-url("fontawesome-webfont.woff");
+// @fontAwesomeTtfPath: font-url("fontawesome-webfont.ttf");
+// @fontAwesomeSvgPath: font-url("fontawesome-webfont.svg#fontawesomeregular");
 // @import "fontawesome/font-awesome";
 
 // Glyphicons
